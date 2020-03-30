@@ -10,7 +10,6 @@
     │
     ├── reports                    <- Reports and presentations
     │   └── presentation.pdf       <- Non-technical presentation
-    │   └── video_walkthrough      <- Link to video walkthrough
     │
     ├── images                     <- Where the graphs are saved
     ├── requirements.txt           <- The requirements file for reproducing the analysis environment
@@ -18,11 +17,13 @@
 
 ## Conclusion
 
-### What is the relationship between domestic profit and worldwide profit?
+### Where is the bulk of the profit coming from (international vs domestic)?
+
+![alt text](images/domesticvsworldwide.png "Domestic and Worldwide Profit vs. Time")
 
 ![alt text](images/profitvsprofit.png "Worldwide Profit vs. Genres")
 
-According to the above line plot, there is a positive relationship between domestic profit and worldwide profit with a slope greater than 1.
+According to the above Domestic and Worldwide Profit vs. Time plot, over the past 40 years, profit due to the international market has been growing at a faster rate than the domestic market without a proportional increase in overall production budget. This is further shown in the Worldwide Profit vs. Domestic Profit scatter plot which shows a positive relationship between domestic profit and worldwide profit with a slope greater than 1. This growth of the international market relative to the domestic market could be explained by saturation of US and Canadian markets (an adequate supply of tickets for the available demand), an increase in global marketing (perhaps promotion via social media), and/or the reduction of restrictions on which movies can be seen in a particular region or country, such as China. This should be capitalized on with an increase in marketing targetting the global markets. 
 
 ### Which genres generate the highest worldwide profit?
 
@@ -70,13 +71,13 @@ According to the bar graphs above, the 5 genres that generate the highest worldw
 
 Based on the above information, it is recommended that a movie is released in May, June, July, November, or December. 
 
+Special emphasis should be given to the international market due to its rapid growth compared with the domestic market. This can be done with a greater allocation of overall marketing budget towards that market, with the utilization of social media, along with focusing on stories, characters, and ideas that are of interest to other countries and regions. 
+
 If the movie is released in May, focus on these three genres: Animation, Sci-Fi, and/or Adventure. 
 If the release month is June, focus on: Animation, Adventure, and/or Sci-Fi. 
 If the release month is July, focus on: War, Animation, and/or Musical. 
 If the release month is November, focus on: Animation, Adventure, and/or Family. 
-And if the release month is in December, focus on: Fantasty, Adventure, and/or Action.
+And if the release month is in December, focus on: Fantasy, Adventure, and/or Action.
 
 If the release month cannot be pre-determined, then focus on the following genres: 
 Animation, Adventure, Sci-Fi, Family, and/or Action.
-
-There is a positive correlation, with a slope greater than 1, between domestic profit and worldwide profit, thus worldwide profit is used as the metric for success. 
